@@ -1,0 +1,40 @@
+.Header {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  // box-shadow: 0 5px 10px 0 rgba(0, 64, 128, 0.05);
+  & figure {
+    margin: 0;
+    margin-right: auto;
+  }
+  &-menu {
+    align-content: center;
+    & ul {
+      list-style: none;
+      justify-content: space-between;
+      & li {
+        display: inline-block;
+        padding: 0px 20px;
+        font-weight: 600;
+        text-transform: uppercase;
+        transition: all 0.3s ease 0s;
+        &:hover {
+          color: #0088a9;
+        }
+      }
+    }
+  }
+  &-button {
+    margin: 0 30px;
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 0.9);
+    border: none;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease 0s;
+  }
+}

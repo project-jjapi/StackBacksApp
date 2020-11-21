@@ -1,0 +1,21 @@
+.About {
+  background-image: url('../../img/coffee9.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 120px 0;
+  position: relative;
+  &-coffee {
+    width: 80%;
+    margin: 0 auto;
+    h2 {
+      color: white;
+    }
+  }
+  &-text {
+    width: 60%;
+    max-width: 768px;
+    line-height: 2rem;
+    color: white;
+  }
+}

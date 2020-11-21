@@ -1,0 +1,90 @@
+.Modal {
+  max-width: 768px;
+  width: 100%;
+  margin: 0 auto;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 100px;
+  background-color: #f0f0f0;
+  //background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(206, 206, 206, 0.7));
+  padding: 20px;
+  border-radius: 5px;
+  z-index: 2;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.Modal-form {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.7);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: all 1.6s ease;
+}
+
+.Modal-close {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: -10px;
+  top: -15px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background: none;
+  outline: none;
+  transition: all 1.3s ease;
+}
+
+.Modal-close:after {
+  content: 'x';
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-group {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.input-group input {
+  width: 250px;
+  padding: 15px 15px 15px 50px;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.1);
+  font-size: 1em;
+  color: #000;
+}
+
+.input-group i {
+  position: absolute;
+  top: 13px;
+  left: 17px;
+  font-size: 18px;
+  color: #aaa;
+}
+
+.form .btn-sing-in {
+  width: 310px;
+  padding: 12px;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  background-color: #c8bda0;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 10px 0 30px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}

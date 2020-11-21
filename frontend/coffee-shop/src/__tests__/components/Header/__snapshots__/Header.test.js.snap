@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should create snapshot 1`] = `
+<div
+  className="Header"
+>
+  <figure>
+    <img
+      alt="logo"
+      src="cover.png"
+      width="180px"
+    />
+  </figure>
+  <div
+    className="Header-menu"
+  >
+    <ul>
+      <li>
+        Inicio
+      </li>
+      <li>
+        Menú
+      </li>
+      <li>
+        Tiendas
+      </li>
+      <li>
+        Conócenos
+      </li>
+    </ul>
+  </div>
+  <div
+    className="Header-user"
+  >
+    <button
+      className="Header-button"
+    >
+      Iniciar sesión
+    </button>
+  </div>
+</div>
+`;
